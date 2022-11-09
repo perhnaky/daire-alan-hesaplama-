@@ -1,0 +1,11 @@
+private void btnHesapla_Click(object sender, EventArgs e)
+        {
+            const double pi=3.14;
+            double r, alan, cevre;
+            r=Convert.ToDouble(txtYaricap.Text);
+            alan = pi * r * r;
+            cevre = 2 * pi * r;
+            lblAlan.Text = "Alan: "+alan.ToString();
+            lblCevre.Text = "Çevre: "+cevre.ToString();
+        }
+ //toolbox uzerinden 3adet label 1 adet textbox 1 adet buton
